@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ACE INTRO</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Ajinkya Chavan</h1>
+
+          <p class="title">Offensive Security</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:ajinkya_chavan@outlook.com" class="contact-link">ajinkya_chavan@outlook.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Mumbai, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>My Skills</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I’m a security enthusiast turned professional with 3+ years of experience in penetration testing and red teaming. I’ve been lucky enough to work on a variety of projects that kept things exciting — everything from digging into web apps and mobile applications, to navigating through internal and external networks, and leading red team operations that simulate real-world adversaries.
+
+My day-to-day has involved:
+
+Breaking into web applications to uncover vulnerabilities before the bad guys do
+
+Reversing and analyzing iOS and Android apps for security flaws
+
+Running internal and external network assessments, identifying misconfigurations, lateral movement paths, and more
+
+Planning and executing red team engagements — simulating APT-style attacks to test detection and response capabilities
+          </p>
+
+          <p>
+            What I enjoy most about this field is the mix of creativity and problem-solving. Every engagement is a new puzzle — no two are the same. I’m always looking to sharpen my skills, stay ahead of evolving threats, and share what I learn along the way.
+
+This portfolio is a collection of some of the work I’ve done, projects I’ve contributed to, tools I’ve built or customized, and research I’ve explored. If you’re into offensive security, threat simulation, or just enjoy breaking things to make them better — you’ll probably find something interesting here.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I Do</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Penetration testing</h4>
+
+                <p class="service-item-text">
+                  As a penetration tester, I conduct thorough assessments by simulating real-world cyberattacks on web applications, mobile platforms, and network infrastructures. My goal is to identify vulnerabilities, misconfigurations, and weaknesses before malicious actors can exploit them. Through manual testing, automated tools, and in-depth exploitation techniques, I help organizations strengthen their defenses and improve their security posture.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Red teaming</h4>
+
+                <p class="service-item-text">
+                  As a red teamer, I conduct full-scope adversary simulations, mimicking advanced, stealthy cyberattacks to assess an organization's detection, response, and overall resilience. This includes evading security controls, exploiting vulnerabilities across networks, applications, and physical access points, and testing the effectiveness of incident response protocols. By emulating real-world threat actors, I help organizations uncover gaps in their defenses and improve their ability to detect and mitigate sophisticated attacks.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Malware Development</h4>
+
+                <p class="service-item-text">
+                  Malware development involves the creation of malicious software specifically designed to exploit security vulnerabilities, bypass protective measures, and disrupt or control systems. This includes developing custom payloads for data exfiltration, remote access, privilege escalation, or system manipulation. I focus on understanding how different types of malware (such as ransomware, rootkits, or trojans) interact with target systems, and I use this knowledge to better understand attack vectors and improve defensive strategies for organizations.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Capture The Flag (CTF) </h4>
+
+                <p class="service-item-text">
+                  Capture The Flag (CTF) competitions are immersive cybersecurity challenges where participants solve a variety of puzzles, exploit vulnerabilities, and complete tasks designed to simulate real-world hacking scenarios. These challenges cover a broad spectrum of skills, including reverse engineering, cryptography, web exploitation, and forensics. Through CTFs, I sharpen my problem-solving abilities, enhance my technical knowledge, and stay updated with the latest attack techniques and security tools, all while competing against others in a fun, fast-paced environment.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Certifications</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+           
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/78812137" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/85716199" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="https://api.eu.badgr.io/public/assertions/7hbxFHNTR5yQY15nEDu7yw/image" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/BSCP.svg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/CRTP.webp" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Red teaming</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Internal / External Network Penetration Testing</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web / API Penetration Testing</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">iOS/Android Application Penetration Testing</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Development</h5>
+                <data value="80">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Cloud Computing, DevOps</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+      <article class="portfolio" data-page="portfolio">
+
+
+        <section class="projects">
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+            </button>
+
+          </div>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/HTB.png" alt="Hackthebox Walkthroughs" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Hackthebox Walkthroughs  - Coming Soon</p>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Hackthebox</h3>
+
+                  <p class="blog-text">
+                    Here you'll find a collection of my HTB walkthroughs — covering web, network, and privilege escalation challenges. These write-ups reflect my approach, tools, and techniques used to solve each box, and showcase how I think through real-world security scenarios in a hands-on lab environment.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/HTB.png" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Hackthebox Pro Lab reviews - Coming Soon</p>
+
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Hackthebox Pro Lab reviews
+                  </h3>
+
+                  <p class="blog-text">
+                    In this section, I share my experiences and reviews of HTB Pro Labs — deep-dive environments designed to simulate real-world networks and advanced adversaries. Each review covers the lab’s difficulty, learning curve, key takeaways, and how it helped sharpen my red teaming and pentesting skills.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/metasploit.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">C2 Review  - Coming Soon</p>
+
+                  </div>
+
+                  <h3 class="h3 blog-item-title">C2 Reviews</h3>
+
+                  <p class="blog-text">
+                    This section covers my hands-on reviews of various Command and Control (C2) frameworks — comparing features, usability, flexibility, and real-world red team applicability. From setup to opsec considerations, I dive into what works, what doesn’t, and how each tool fits into modern offensive operations.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/EDR.webp" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">EDR Evasion techniques  - Coming Soon
+                    </p>
+
+
+                  </div>
+
+                  <h3 class="h3 blog-item-title">EDR Evasion techniques</h3>
+
+                  <p class="blog-text">
+                    This section explores techniques I’ve tested and researched to bypass Endpoint Detection & Response (EDR) systems — from obfuscation and process injection to living-off-the-land tactics and custom payload development. All methods are explored in controlled lab environments for educational and research purposes only.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/AD.webp" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Projects  - Coming Soon</p>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Vulnerable Active Directory Lab</h3>
+
+                  <p class="blog-text">
+                    This is my custom-built Active Directory (AD) lab, designed to simulate real-world enterprise environments with intentional misconfigurations and vulnerabilities. It’s a hands-on space where I test reconnaissance, lateral movement, privilege escalation, and domain dominance techniques commonly used during internal network assessments and red team engagements.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241316.70176233232!2d72.71413193305101!3d19.08248221484109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c6306644edc1%3A0x5da4ed8f8d648c69!2sMumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1744472417782!5m2!1sen!2sin"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact</h3>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/ajinkyaa-chavan/" class="social-link">
+              <ion-icon name="logo-linkedin" width="200" height="300"></ion-icon>
+            </a>
+          </li>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
